@@ -8,7 +8,7 @@ const About = (props) => {
   return (
     <div className="about-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Hima</title>
       </Helmet>
       <div className="about-about">
         <Navbar />

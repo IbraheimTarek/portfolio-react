@@ -8,7 +8,7 @@ const Experience = (props) => {
   return (
     <div className="experience-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Hima</title>
       </Helmet>
       <div className="experience-experience">
         <Navbar />
