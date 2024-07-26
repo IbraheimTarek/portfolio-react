@@ -1,0 +1,48 @@
+.navbar {
+    gap: 10px;
+    top: 0px;
+    left: 0px;
+    width: 100%; /* Make sure the navbar spans the entire width */
+    height: 65px;
+    display: flex;
+    padding: 10px 64px;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+    z-index: 1000; /* Add a high z-index value to ensure it stays on top */
+  }
+  
+  .navbar-fire {
+    width: 828px;
+    height: 32px;
+    flex-grow: 1;
+  }
+  
+  .navbar-element {
+    gap: 10px;
+    width: 80px;
+    height: 32px;
+    display: flex;
+    padding: 8px;
+    box-sizing: content-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(74, 65, 68, 1);
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    justify-content: center;
+  }
+  
+  .navbar-link {
+    color: var(--dl-color-default-wenge);
+    height: auto;
+    text-align: center;
+    line-height: normal;
+    text-decoration: none; /* Add this line to remove the underline from the links */
+  }
+  
+  .navbar-element:last-child {
+    border-width: 0; /* Remove the right border from the last element */
+  }
+  
